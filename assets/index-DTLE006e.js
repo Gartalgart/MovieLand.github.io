@@ -612,6 +612,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
    max-sm:px-4`,children:[_e.jsx("h1",{className:`text-3xl tracking-[0.9px]
      bg-gradient-to-r from-[rgb(249,211,180)] to-[rgba(249,211,180,0)] 
      bg-clip-text text-transparent w-fit max-sm:text-[2rem]`,children:"MovieLand"}),_e.jsxs("div",{className:`w-[71%] mt-16 mb-8 flex items-center justify-center
-    py-6 px-7 rounded-[3rem] bg-[#1f2123] shadow-custom-dual`,children:[_e.jsx("input",{className:`flex-1 border-none text-2xl font-medium pr-4 outline-none
+    py-6 px-7 rounded-[3rem] bg-[#1f2123] shadow-custom-dual max-sm:w-full`,children:[_e.jsx("input",{className:`flex-1 border-none text-2xl font-medium pr-4 outline-none
         text-[#a1a1a1] bg-[#1f2123]`,type:"text",placeholder:"Search for movie",value:a,onChange:m=>f(m.target.value)}),_e.jsx(lu,{icon:Xg,className:"w-8 h-8 cursor-pointer text-[#f9d3b4]",onClick:()=>c(a)})]}),(i==null?void 0:i.length)>0?_e.jsx("div",{className:`w-full mt-12 flex justify-center items-center
           flex-wrap max-sm:mt-8`,children:i.map(m=>_e.jsx(Gg,{movie:m},m.imdbID))}):_e.jsx("div",{className:"w-full mt-12 flex justify-center items-center",children:_e.jsx("h2",{className:"text-[1.25rem] text-[#f9d3b4] font-raleway",children:"No movies found"})})]})};Tm.createRoot(document.getElementById("root")).render(_e.jsx(Br.StrictMode,{children:_e.jsx(qg,{})}));
