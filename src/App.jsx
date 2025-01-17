@@ -32,7 +32,7 @@ const App = () => {
       MovieLand
     </h1>
     <div className="w-[71%] mt-16 mb-8 flex items-center justify-center
-    py-6 px-7 rounded-[3rem] bg-[#1f2123] shadow-custom-dual">
+    py-6 px-7 rounded-[3rem] bg-[#1f2123] shadow-custom-dual max-sm:w-full">
       <input 
         className="flex-1 border-none text-2xl font-medium pr-4 outline-none
         text-[#a1a1a1] bg-[#1f2123]"
